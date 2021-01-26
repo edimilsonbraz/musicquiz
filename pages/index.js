@@ -1,10 +1,14 @@
-import styled from 'styled-components'
-import db from '../db.json'
-import Widget from '../src/components/Widget'
-import QuizBackground from '../src/components/QuizBackground'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
+import db from '../db.json';
+import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo'
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
+import Router from 'next/dist/next-server/lib/router/router';
 
 // const BackgroundImage = styled.div`
 // background-image: url(${db.bg});
@@ -13,7 +17,7 @@ import GitHubCorner from '../src/components/GitHubCorner'
 // background-position: center;
 // `;
 
-const QuizContainer = styled.div `
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -24,30 +28,55 @@ const QuizContainer = styled.div `
   }
 `;
 
-
-
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+  console.log('Retorno do useState', name, setName);
+
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>ReactQuiz - Base</title>
+        <meta property="og:image" content="https://ik.imagekit.io/1n1swj1w28/space-galaxy-_4pMLm2m3d.png" />
+      </Head>
       <QuizContainer>
-       <Widget>
+        <QuizLogo/>
+        <Widget>
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Quiz - Mundo ReactJS</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre Zelda e divirta-se criando o seu AluraQuiz!</p>
+            <p>Teste os seus conhecimentos sobre o universo ReactJS e divirta-se !</p>
+            <form onSubmit={function (infosDoEvento) {
+              infosDoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}
+            >
+              <input 
+                onChange={function (infosDoEvento) {
+                  console.log(infosDoEvento.target.value)
+                  // 
+                  setName(infosDoEvento.target.value);
+                }}
+                placeholder="Digite seu nome"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                JOGAR 
+                {name}
+              </button>
+            </form>
           </Widget.Content>
-       </Widget>
-        
-       <Widget>
-         <Widget.Content>
-          <h1>Quizes da Galera</h1>
+        </Widget>
 
-          <p>lorem ipsum dolor sit emet ....</p>
-         </Widget.Content>
-       </Widget>
-       <Footer/>
-       <GitHubCorner projectUrl="https://github.com/edimilsonbraz"/>
+        <Widget>
+          <Widget.Content>
+            <h1>Quizes da Galera</h1>
+
+            <p>lorem ipsum dolor sit emet ....</p>
+          </Widget.Content>
+        </Widget>
+        <Footer />
+        <GitHubCorner projectUrl="https://github.com/edimilsonbraz" />
 
       </QuizContainer>
     </QuizBackground>
