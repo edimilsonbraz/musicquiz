@@ -1,10 +1,10 @@
 {
-    "bg": "https://ik.imagekit.io/1n1swj1w28/space-galaxy-_4pMLm2m3d.png",
+    "bg": "https://ik.imagekit.io/1n1swj1w28/wallpaperflare.com_wallpaper_YDmHGAeyJg.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
         "title": "Como fazer um background gradiente com css?",
         "description": "Faz tempo em haha",
         "answer": 0,
