@@ -38,17 +38,17 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>ReactQuiz - Base</title>
+        <title>MusicQuiz - Base</title>
         <meta property="og:image" content="https://ik.imagekit.io/1n1swj1w28/space-galaxy-_4pMLm2m3d.png" />
       </Head>
       <QuizContainer>
         <QuizLogo/>
         <Widget>
           <Widget.Header>
-            <h1>Quiz - Mundo ReactJS</h1>
+            <h1>MusicQuiz</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre o universo ReactJS e divirta-se !</p>
+            <p>Teste os seus conhecimentos sobre o universo Musical e divirta-se !</p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
@@ -77,7 +77,7 @@ export default function Home() {
           </Widget.Content>
         </Widget>
         <Footer />
-        <GitHubCorner projectUrl="https://github.com/edimilsonbraz" />
+        <GitHubCorner projectUrl="https://github.com/edimilsonbraz/reactquiz-base" />
 
       </QuizContainer>
     </QuizBackground>

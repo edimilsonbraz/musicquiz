@@ -5,24 +5,38 @@
     "questions": [
       {
         "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "title": "Qual o nome do guitarrista do Guns N' Roses?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Chimbinha",
+          "Kiko Loureiro",
+          "Andreas Kisser",
+          "Slash"
         ]
       },
       {
         "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "title": "Ozzy Osbourne, em um show, mordeu a cabeça de um animal. Que animal era esse?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Rato",
+           "Pombo",
+           "Morcego",
+           "gato"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Qual álbum do Pink Floyd foi considerado o segundo melhor de todos os tempos ?",
+        "description": "Faz tempo em haha",
+        "answer": 2,
+        "alternatives": [
+          "Dark Side of the Moon",
+          "The Wall",
+          "Wish You Were Here",
+          "Animals"
         ]
       }
     ],
