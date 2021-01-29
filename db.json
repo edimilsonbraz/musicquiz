@@ -38,6 +38,64 @@
           "Wish You Were Here",
           "Animals"
         ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Qual o nome do vocalista da banda Jota Quest ?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+          "Rogério Flausino",
+          "Marcus Menna",
+          "Di Ferrero",
+          "Tico Santa Cruz"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Quem canta a música Nem um dia ?",
+        "description": "Fácil fácil rsrs",
+        "answer": 1,
+        "alternatives": [
+          "Caetano Veloso",
+          "Djavan",
+          "Gilberto Gil",
+          "Tim Maia"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Cantor(a) sertanejo mais bem pago no Brasil ?",
+        "description": "Molesa né kk",
+        "answer": 2,
+        "alternatives": [
+          "Luan Santana",
+          "Wesley Safadão",
+          "Gusttavo Lima",
+          "Mrília Mendonça"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Qual é o nome da 1ª emissora de rádio que surgiu no Brasil ?",
+        "description": "Complicou ?",
+        "answer": 0,
+        "alternatives": [
+          "Sociedade (Rio de Janeiro",
+          "FM 101 (Macaé)",
+          "Jovem Pan (São Paulo)"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4TiJTcpvvQSeOJYn92/giphy.gif",
+        "title": "Qual é o nome da 1ª emissora de rádio que surgiu no Brasil ?",
+        "description": "Complicou ?",
+        "answer": 0,
+        "alternatives": [
+          "Sociedade (Rio de Janeiro",
+          "FM 101 (Macaé)",
+          "Jovem Pan (São Paulo)"
+        ]
       }
     ],
     "external": [
