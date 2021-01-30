@@ -100,10 +100,10 @@
       }
     ],
     "external": [
-      "https://reactquiz.vercel.app/",
+      "https://aluraquiz-coffee.leonardot07.vercel.app/",
       "https://alura-quiz.netmatioazi.vercel.app/",
-      "https://typequiz.caducarvalho.vercel.app/",
-      "https://daluluquiz.vercel.app/"
+      "https://typequiz.caducarvalho.vercel.app/"
+      
      
     ],
     "theme": {
