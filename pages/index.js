@@ -26,7 +26,7 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>MusicQuiz - Base</title>
-        <meta property="og:image" content="https://ik.imagekit.io/1n1swj1w28/space-galaxy-_4pMLm2m3d.png" />
+        <meta property="og:image" content="https://ik.imagekit.io/1n1swj1w28/wallpaperflare.com_wallpaper_YDmHGAeyJg.jpg" />
       </Head>
       <QuizContainer>
         <QuizLogo/>
