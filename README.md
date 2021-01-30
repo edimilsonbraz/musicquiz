@@ -26,4 +26,20 @@ Desenvolvemos um jogo(quiz) de perguntas e respostas usando várias bibliotecas 
 - ⚛️ **ESlint**
 
 ## Como executar o projeto
-
+1 - Abra o terminal do seu computador e mude para o diretório que deseja manter este aplicativo. Execute o código
+```
+$ git clone https://github.com/edimilsonbraz/musicquiz
+```
+2 - Acesse o diretório
+```
+$ cd musicquiz
+```
+3 - Na pasta principal execute o comando para instalar todos os pacotes necessários listados no arquivo package.json.
+```
+$ npm install
+```
+4 - rode o projeto
+```
+$ npm run dev
+```
+## Sobre mim :smiley:
