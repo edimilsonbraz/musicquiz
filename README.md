@@ -43,3 +43,6 @@ $ npm install
 $ npm run dev
 ```
 ## Sobre mim :smiley:
+<a href="https://www.linkedin.com/in/edimilsonbraz/">
+<img src="https://avatars.githubusercontent.com/u/65040481?s=400&u=89ccd5a011db9d8281701ee5ca4f09ac844234c3&v=4" alt="avatar" width="150">
+</a>
